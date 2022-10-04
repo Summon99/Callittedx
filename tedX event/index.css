@@ -1,0 +1,259 @@
+.Desktop {
+    display: inline;
+}
+.Tablet {
+    display: none;
+}
+.Mobile {
+    display: none;
+}
+body{
+    background-color: rgb(255, 255, 255);
+    margin: 0%;
+
+    top: 0%;
+    right: 0%;
+    left: 0%;
+    bottom: 0%;
+}
+.intro {
+    position: relative;
+    background-image: url(d0087f40e3979bd7adbf573e911a732e.jpeg);
+    background-size: 100% 100%;
+    width: 170px;
+    height: 60px;
+    background-repeat: no-repeat;
+}
+.summary {
+    background-color: white;
+    background-size: 100% 100%;
+    height: 1500px;
+}
+.summary--intro {
+    border: none;
+    border-bottom: 1px solid rgb(0, 0, 0);
+    padding-bottom: 10%;
+    height: 600px;
+}
+.Text {
+    position: absolute;
+    font-family: Georgia;
+    color: rgb(0, 0, 0);
+    font-size: 32px;
+    padding-left: 5%;
+}
+.paragraph {
+    width: 500px;
+    position: absolute;
+    font-family: Trebuchet MS;
+    opacity: 0.5;
+    color: rgb(0, 0, 0);
+    font-size: 18px;
+    padding: 5%;
+    padding-top: 2%;
+}
+.Img {
+    top: 30%;
+    position: absolute;
+    left: 50%;
+    border: 2px solid rgb(255, 0, 0);
+}
+.ImgM {
+    top: 10%;
+    position: absolute;
+    left: 50%;
+    border: 2px solid rgb(255, 0, 0);
+}
+.ImageM {
+    position: absolute;
+    top: 20%;
+}
+.People {
+    position: relative;
+    margin-top: 100px;
+}
+.person1 {
+    border: 5px solid #000000;
+    position: absolute;
+    left: 3%;
+    background-image: url(12-04-20-SF-ENT-TEDxTemecula-Speakers-Cphoto_1.jpg);
+    background-size: 100% 100%;
+    height: 400px;
+    width: 400px;
+    background-repeat: none;
+    animation-duration: 1s;
+}
+.p--text {
+    color: rgb(255, 255, 255);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    padding: 10%;
+    font-size: 36px;
+}
+.overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: #00000098;
+}
+.person1:hover {
+    transform:rotate(3deg);
+}
+.person1:hover .overlay{
+    opacity: 1;
+}
+.person2 {
+    border: 5px solid #000000;
+    position: absolute;
+    left: 35%;
+    background-image: url(download.jpeg);
+    background-size: 100% 100%;
+    height: 400px;
+    width: 400px;
+    background-repeat: none;
+    animation-duration: 1s;
+}
+.person2:hover{
+    transform: rotate(-3deg);
+}
+.person2:hover .overlay{
+    opacity: 1;
+}
+
+.person3 {
+    border: 5px solid #000000;
+    position: absolute;
+    left: 67%;
+    background-image: url(tedx-poster-tommy_1_orig.jpg);
+    background-size: 100% 100%;
+    height: 400px;
+    width: 400px;
+    background-repeat: none;
+    animation-duration: 1s;
+}
+.person3:hover{
+    transform: rotate(3deg);
+}
+.person3:hover .overlay{
+    opacity: 1;
+}
+.buy {
+    position: absolute;
+    background-color: #000000; 
+    border-radius: 12px;
+    border: 1px solid rgb(105, 105, 105);
+    color: rgb(255, 255, 255);
+    padding: 10px 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 16px;
+    position: relative;
+    bottom: -33%;
+    left: 45%;
+    transition-duration: 0.3s;
+}
+.buy:hover {
+    background-color: aliceblue;
+    color: black;
+    box-shadow: 15px 0px 15px 0 rgba(253, 0, 0, 0.24), 15px 17px 50px 10px rgba(253, 0, 0, 0.24);
+}
+.buy:active {
+    box-shadow: 0 1px #666;
+    transform: translateY(4px);
+}
+.footer {
+    border: 1px solid red;
+    border-left: none;
+    border-right: none;
+    border-bottom: none;
+    position: relative;
+    height: 100px;
+}
+.title {
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    color: rgb(0, 0, 0);
+    margin-left: 40%;
+    padding-bottom: 5%;
+}
+.logo {
+    position: absolute;
+    left: 5%;
+    top: 35%;
+}
+.right {
+    position: absolute;
+    left: 90%;
+}
+.icon {
+    padding-left: 5px;
+}
+.DTitle {
+    margin-left: 5%;
+    width: 500px;
+}
+.p--textT {
+    margin-top: 120%;
+    color: rgb(0, 0, 0);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    padding: 5%;
+    font-size: 18px;
+}
+/*
+@media (max-width: 1300px) {
+    .person1 {
+        height: 300px;
+        width: 300px;
+    }
+    .person2 {
+        height: 300px;
+        width: 300px;
+    }
+    .person3 {
+        height: 300px;
+        width: 300px;
+    }
+    .Img {
+        left: 60%;
+        height: 300px;
+        width: 350px;
+    }
+    .Text {
+        font-size: 26px;
+    }
+    .paragraph {
+        font-size: 14px;
+        width: 450px;
+    }
+    .title {
+        margin-left: 35%;
+    }
+    .p--text {
+        font-size: 26px;
+    }
+    .Img {
+        top: 15%;
+    }
+}
+@media (max-width: 1300px) {
+    .Desktop {
+        display: none;
+    }
+    .Tablet {
+        display: inline;
+    }
+    @media (max-width: 400) {
+        .Tablet {
+            display: none;
+        }
+        .Mobile {
+            display: inline;
+        }
+    }
+} */
